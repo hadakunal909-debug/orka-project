@@ -1,0 +1,58 @@
+
+> stagework@1.0.0 dev
+> next dev -p 3002
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3002
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.5s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 544ms (125 modules)
+ ○ Compiling /api/public/workspace/[token] ...
+ ✓ Compiled /api/public/workspace/[token] in 2.5s (567 modules)
+ GET /api/public/workspace/short 404 in 3864ms
+ GET / 200 in 3965ms
+ GET / 307 in 293ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1526ms (846 modules)
+ GET /dashboard 200 in 2572ms
+ ✓ Compiled /api/feedback in 306ms (479 modules)
+ GET /api/feedback?assigned_to_me=1 200 in 745ms
+ GET /api/feedback?assigned_to_me=1 200 in 223ms
+ GET /api/public/workspace/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa! 404 in 44ms
+ GET /api/public/workspace/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 404 in 241ms
+ ✓ Compiled in 18.8s (384 modules)
+ ✓ Compiled in 3.3s (384 modules)
+ ✓ Compiled in 2.5s (384 modules)
+ ✓ Compiled in 1981ms (384 modules)
+ ✓ Compiled in 1302ms (384 modules)
+ ✓ Compiled in 2.4s (384 modules)
+ ✓ Compiled in 2.3s (384 modules)
+ ✓ Compiled in 15.5s (811 modules)
+ ✓ Compiled in 1333ms (384 modules)
+ ✓ Compiled in 1062ms (384 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.7s (814 modules)
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3002
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 6.3s
+ ✓ Compiled /middleware in 920ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 12.3s (450 modules)
+ GET /_next/static/webpack/webpack.82f0ffa647488236.hot-update.js 404 in 13277ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 9.9s (807 modules)
+ GET /dashboard 200 in 11570ms
+ ○ Compiling /api/feedback ...
+ ✓ Compiled /api/feedback in 650ms (467 modules)
+ GET /api/feedback?assigned_to_me=1 200 in 1480ms
+ GET /api/feedback?assigned_to_me=1 200 in 208ms
+   Reload env: .env.local
+ ✓ Compiled in 14.4s (929 modules)
+   Reload env: .env.local
+ ✓ Compiled in 804ms (915 modules)

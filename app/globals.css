@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* shadcn-style design tokens, mapped to the Orka palette.
+   These power the components in components/ui/. Existing Orka colors
+   (primary/accent/ink/soft/etc.) keep working as-is. */
+:root {
+  --background: 0 0% 100%;        /* white */
+  --foreground: 222 47% 11%;      /* Orka ink #0F172A */
+  --border: 214 32% 91%;          /* Orka line #E2E8F0 */
+  --input: 214 32% 91%;
+  --ring: 217 91% 60%;            /* Orka primary blue */
+  --primary-foreground: 0 0% 100%;
+  --accent-foreground: 0 0% 100%;
+  --secondary: 210 40% 96%;       /* Orka bg #F8FAFC */
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%; /* Orka soft #475569 */
+  --destructive: 0 84% 60%;       /* Orka danger #EF4444 */
+  --destructive-foreground: 0 0% 100%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --radius: 0.5rem;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: #F8FAFC;
+  color: #0F172A;
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Better focus styles */
+input:focus, textarea:focus, select:focus, button:focus {
+  outline: none;
+}
+input:focus-visible, textarea:focus-visible, select:focus-visible {
+  border-color: #2563EB !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 1px 2px rgba(0,0,0,0.05) !important;
+}
+
+/* Premium scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+/* Refined animations */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@keyframes slideIn { from { transform: translateX(24px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes slideDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+@keyframes shimmer {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+@keyframes pop {
+  0%   { transform: scale(0.8); opacity: 0; }
+  60%  { transform: scale(1.06); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes scaleIn {
+  0%   { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes modalIn {
+  0%   { transform: scale(0.96) translateY(8px); opacity: 0; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+@keyframes toastIn {
+  0%   { transform: translateX(100%) scale(0.9); opacity: 0; }
+  100% { transform: translateX(0) scale(1); opacity: 1; }
+}
+@keyframes badgePulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.15); }
+}
+@keyframes progressGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+  50%      { box-shadow: 0 0 8px 2px rgba(37, 99, 235, 0.2); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+
+.animate-fadeIn { animation: fadeIn 0.2s ease forwards; }
+.animate-slideUp { animation: slideUp 0.28s cubic-bezier(.4,0,.2,1) forwards; }
+.animate-slideIn { animation: slideIn 0.28s cubic-bezier(.4,0,.2,1) forwards; }
+.animate-slideDown { animation: slideDown 0.2s ease forwards; }
+.animate-pop { animation: pop 0.32s cubic-bezier(.34,1.56,.64,1) forwards; }
+.animate-scaleIn { animation: scaleIn 0.2s cubic-bezier(.4,0,.2,1) forwards; }
+.animate-modalIn { animation: modalIn 0.25s cubic-bezier(.16,1,.3,1) forwards; }
+.animate-toastIn { animation: toastIn 0.35s cubic-bezier(.16,1,.3,1) forwards; }
+.animate-badgePulse { animation: badgePulse 2s ease-in-out infinite; }
+.animate-float { animation: float 3s ease-in-out infinite; }
+
+.skeleton {
+  background: linear-gradient(90deg, #F1F5F9 0px, #E2E8F0 200px, #F1F5F9 400px);
+  background-size: 1000px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+/* Smoother interactive transitions */
+button, a, [role="button"] {
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.12s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(37, 99, 235, 0.15);
+  color: #0F172A;
+}
+
+@layer components {
+  .form-input {
+    @apply w-full px-3 py-2 border border-line rounded-lg bg-white text-sm text-ink transition-all duration-150;
+  }
+  .form-input:hover {
+    border-color: #CBD5E1;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10.5px] font-semibold;
+  }
+  /* Glass effect utility */
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .glass-dark {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+}
+

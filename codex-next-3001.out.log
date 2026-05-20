@@ -1,0 +1,144 @@
+
+> stagework@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.2s
+ ✓ Compiled /middleware in 454ms (125 modules)
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 7.1s (782 modules)
+ GET /dashboard 307 in 7545ms
+ GET /dashboard 307 in 93ms
+ ○ Compiling / ...
+ ✓ Compiled / in 871ms (799 modules)
+ GET / 200 in 2196ms
+ ✓ Compiled /api/auth/dev-signin in 428ms (454 modules)
+ POST /api/auth/dev-signin 303 in 2008ms
+ GET /dashboard 200 in 787ms
+ ✓ Compiled /api/feedback in 294ms (467 modules)
+ GET /api/feedback?assigned_to_me=1 200 in 622ms
+ GET /api/feedback?assigned_to_me=1 200 in 214ms
+ ○ Compiling /api/cards/[id]/attachments ...
+ ✓ Compiled /api/cards/[id]/attachments in 541ms (469 modules)
+ ✓ Compiled (474 modules)
+ GET /api/messages?card_id=0d3c3269-5144-4a36-859d-bd3aaded886e 200 in 1470ms
+ GET /api/cards/0d3c3269-5144-4a36-859d-bd3aaded886e/subtasks 200 in 1924ms
+ GET /api/cards/0d3c3269-5144-4a36-859d-bd3aaded886e/attachments 200 in 1987ms
+ GET /api/messages?card_id=0d3c3269-5144-4a36-859d-bd3aaded886e 200 in 464ms
+ GET /api/cards/0d3c3269-5144-4a36-859d-bd3aaded886e/subtasks 200 in 176ms
+ GET /api/cards/0d3c3269-5144-4a36-859d-bd3aaded886e/attachments 200 in 247ms
+ GET /dashboard 200 in 1518ms
+ GET /api/feedback?assigned_to_me=1 200 in 230ms
+ GET /api/feedback?assigned_to_me=1 200 in 212ms
+ GET /dashboard 200 in 534ms
+ GET /api/feedback?assigned_to_me=1 200 in 274ms
+ GET /api/feedback?assigned_to_me=1 200 in 255ms
+ GET /api/cards/b15f7fea-c804-4deb-95d7-47c182573a24/subtasks 200 in 424ms
+ GET /api/cards/b15f7fea-c804-4deb-95d7-47c182573a24/attachments 200 in 592ms
+ GET /api/cards/b15f7fea-c804-4deb-95d7-47c182573a24/subtasks 200 in 277ms
+ GET /api/messages?card_id=b15f7fea-c804-4deb-95d7-47c182573a24 200 in 881ms
+ GET /api/cards/b15f7fea-c804-4deb-95d7-47c182573a24/attachments 200 in 242ms
+ GET /api/messages?card_id=b15f7fea-c804-4deb-95d7-47c182573a24 200 in 533ms
+ GET /api/cards/618ce5c3-74f0-49c4-9475-9a39290f77b2/subtasks 200 in 385ms
+ GET /api/cards/618ce5c3-74f0-49c4-9475-9a39290f77b2/attachments 200 in 471ms
+ GET /api/cards/618ce5c3-74f0-49c4-9475-9a39290f77b2/subtasks 200 in 185ms
+ GET /api/messages?card_id=618ce5c3-74f0-49c4-9475-9a39290f77b2 200 in 753ms
+ GET /api/cards/618ce5c3-74f0-49c4-9475-9a39290f77b2/attachments 200 in 229ms
+ GET /api/messages?card_id=618ce5c3-74f0-49c4-9475-9a39290f77b2 200 in 458ms
+ ✓ Compiled /api/auth/signout in 296ms (454 modules)
+ GET /api/auth/signout 307 in 589ms
+ GET / 200 in 447ms
+ ✓ Compiled /api/auth/dev-signin in 181ms (456 modules)
+ POST /api/auth/dev-signin 303 in 2307ms
+ GET /dashboard 200 in 721ms
+ ✓ Compiled /api/feedback in 129ms (469 modules)
+ GET /api/feedback?assigned_to_me=1 200 in 539ms
+ GET /api/feedback?assigned_to_me=1 200 in 400ms
+ GET /api/auth/signout 307 in 144ms
+ GET / 200 in 208ms
+ POST /api/auth/dev-signin 303 in 472ms
+ GET /dashboard 200 in 369ms
+ GET /api/feedback?assigned_to_me=1 200 in 257ms
+ GET /api/feedback?assigned_to_me=1 200 in 206ms
+ ✓ Compiled /api/messages in 140ms (471 modules)
+ GET /api/messages?project_id=14c82028-aeac-4756-a9b0-16ce751adc4c 200 in 732ms
+ GET /api/messages?project_id=14c82028-aeac-4756-a9b0-16ce751adc4c 200 in 346ms
+ GET /api/messages?recipient_id=bbb945a1-9c6a-40de-b5d5-96d0b3391681 200 in 472ms
+ GET /api/messages?recipient_id=cc2d612c-8e7e-4a05-881c-4ce93c12988c 200 in 318ms
+ GET /api/messages?recipient_id=0b164650-fa6b-4a70-a6f4-f6a8756ab7e4 200 in 332ms
+ GET /api/messages?recipient_id=d3466d19-9743-4776-8c39-c7525d2edf44 200 in 336ms
+ GET /dashboard 200 in 960ms
+ GET /api/feedback?assigned_to_me=1 200 in 215ms
+ GET /api/feedback?assigned_to_me=1 200 in 255ms
+ ○ Compiling /api/cards/[id]/subtasks ...
+ ✓ Compiled /api/cards/[id]/subtasks in 1042ms (468 modules)
+ ✓ Compiled (472 modules)
+ GET /api/cards/31806105-6778-447b-8e5c-87e699e53ecc/subtasks 200 in 2165ms
+ GET /api/cards/31806105-6778-447b-8e5c-87e699e53ecc/attachments 200 in 2350ms
+ GET /api/messages?card_id=31806105-6778-447b-8e5c-87e699e53ecc 200 in 2540ms
+ GET /api/cards/31806105-6778-447b-8e5c-87e699e53ecc/subtasks 200 in 199ms
+ GET /api/cards/31806105-6778-447b-8e5c-87e699e53ecc/attachments 200 in 263ms
+ GET /api/messages?card_id=31806105-6778-447b-8e5c-87e699e53ecc 200 in 375ms
+ ✓ Compiled in 798ms (373 modules)
+ ✓ Compiled in 388ms (373 modules)
+ ✓ Compiled in 354ms (373 modules)
+ ✓ Compiled in 369ms (373 modules)
+ ✓ Compiled in 453ms (373 modules)
+ ✓ Compiled in 337ms (373 modules)
+ ✓ Compiled in 288ms (373 modules)
+ ○ Compiling /api/messages ...
+ ✓ Compiled /api/messages in 3.1s (821 modules)
+ ✓ Compiled in 0ms (476 modules)
+ GET /api/messages?recipient_id=d3466d19-9743-4776-8c39-c7525d2edf44 200 in 2405ms
+ ✓ Compiled in 416ms (384 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.4s (1033 modules)
+ GET / 500 in 3159ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1946ms (1036 modules)
+ GET /_next/static/css/app/layout.css?v=1779073182103 404 in 2190ms
+ GET /_next/static/css/app/layout.css?v=1779073182566 404 in 1554ms
+ GET / 307 in 213ms
+ GET /dashboard 200 in 423ms
+ GET /_next/static/css/app/layout.css?v=1779073184847 404 in 48ms
+ GET /_next/static/chunks/main-app.js?v=1779073184847 404 in 81ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 81ms
+ GET /_next/static/chunks/app/dashboard/page.js 404 in 81ms
+ ✓ Compiled /api/public/workspace/[token] in 419ms (518 modules)
+ GET /api/public/workspace/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 500 in 1453ms
+ GET /api/public/workspace/short 500 in 1457ms
+ GET /dashboard 200 in 983ms
+ ○ Compiling /api/feedback ...
+ ✓ Compiled /api/feedback in 796ms (516 modules)
+ GET /api/feedback?assigned_to_me=1 200 in 1242ms
+ GET /api/feedback?assigned_to_me=1 200 in 218ms
+ ✓ Compiled in 3.4s (568 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.2s (1048 modules)
+ GET /_next/static/webpack/c2896042c1446964.webpack.hot-update.json 404 in 5345ms
+ ✓ Compiled in 2.4s (570 modules)
+ GET /_next/static/webpack/c2896042c1446964.webpack.hot-update.json 404 in 264ms
+ GET /dashboard 200 in 650ms
+ GET /dashboard 200 in 1965ms
+ ✓ Compiled in 6s (1048 modules)
+ GET /_next/static/chunks/app/dashboard/page.js 404 in 6245ms
+ ✓ Compiled in 2.4s (570 modules)
+ ✓ Compiled in 2.8s (570 modules)
+ ✓ Compiled in 1250ms (570 modules)
+ ✓ Compiled in 2.3s (570 modules)
+ ✓ Compiled in 2.1s (570 modules)
+ ✓ Compiled in 16.2s (1048 modules)
+ ✓ Compiled in 6.2s (1048 modules)
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 6.2s
+ ○ Compiling /_not-found ...
+   Reload env: .env.local
+   Reload env: .env.local

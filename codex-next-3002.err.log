@@ -1,0 +1,133 @@
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\client-development.pack.gz: Error: unexpected end of file
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 28 (line 3 column 2)
+    at JSON.parse (<anonymous>)
+    at loadManifest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-manifest.js:36:25)
+    at getMaybePagePath (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:57:59)
+    at getPagePath (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:92:22)
+    at requirePage (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:99:22)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js:98:84
+    at async loadComponentsImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\next-server.js:709:36)
+    at async DevServer.findPageComponents (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:2074:30)
+    at async DevServer.pipeImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\next-server.js:231:21)
+    at async DevServer.handleRequestImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:817:17)
+    at async C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:173:21)
+    at async handleRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:350:24)
+    at async requestHandlerImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:374:13)
+    at async Server.requestListener (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\start-server.js:141:13)
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+[Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\1.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\cache\\webpack\\server-development\\1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\1.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\cache\\webpack\\server-development\\1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\1.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\cache\\webpack\\server-development\\1.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\13.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\cache\\webpack\\server-development\\13.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\13.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\cache\\webpack\\server-development\\13.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\13.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\cache\\webpack\\server-development\\13.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\server-development\1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/feedback/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\feedback\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/feedback/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/feedback/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\feedback\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\handle-externals.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\swc\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\dashboard'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/feedback/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\feedback\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/feedback/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/feedback/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\feedback\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\swc\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/dashboard/page' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\dashboard\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/dashboard/page' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/dashboard/page (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\dashboard\page.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\swc\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js

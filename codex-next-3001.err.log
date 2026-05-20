@@ -1,0 +1,250 @@
+ ⨯ Error: Cannot find module './7787.js'
+Require stack:
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\dashboard\page.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js:167:22)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\page.js:1:16600
+    at Object.<anonymous> (C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\page.js:1:16656)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+    at Module._load (node:internal/modules/cjs/loader:1335:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js:98:84
+    at async loadComponentsImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\next-server.js:709:36)
+    at async DevServer.findPageComponents (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:1894:24)
+    at async DevServer.renderToResponseImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:1946:32)
+    at async DevServer.pipeImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:817:17)
+    at async C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:173:21)
+    at async handleRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:350:24)
+    at async requestHandlerImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:374:13)
+    at async Server.requestListener (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\server\\app\\dashboard\\page.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\public\workspace\[token]\route.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\static-paths-worker.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js:203:28) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\server\\app\\api\\public\\workspace\\[token]\\route.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/api/public/workspace/short'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\public\workspace\[token]\route.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\static-paths-worker.js
+- C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\webpack-runtime.js:203:28) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\.next\\server\\app\\api\\public\\workspace\\[token]\\route.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'C:\\Users\\k.signhhada\\Desktop\\PM Tool\\stagework\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/api/public/workspace/short'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/pages/_error' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages\_error.js', but to 'Error: Can't resolve '../../../../.next/server/pages/_error' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/pages/_error (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages\_error.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/pages/_app' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages\_app.js', but to 'Error: Can't resolve '../../../../.next/server/pages/_app' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/pages/_app (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages\_app.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/pages/_document' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages\_document.js', but to 'Error: Can't resolve '../../../../.next/server/pages/_document' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/pages/_document (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\pages\_document.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/messages/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\messages\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/messages/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/messages/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\messages\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\messages'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/cards/[id]/attachments/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\cards\[id]\attachments\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/cards/[id]/attachments/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/cards/[id]/attachments/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\cards\[id]\attachments\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\cache\webpack\client-development.pack.gz: Error: incorrect data check
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/feedback/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\feedback\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/feedback/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/feedback/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\feedback\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/public/workspace/[token]/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\public\workspace\[token]\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/public/workspace/[token]/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/public/workspace/[token]/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\public\workspace\[token]\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/messages/route' in C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\messages\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/messages/route' in 'C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/messages/route (expected C:\Users\k.signhhada\Desktop\PM Tool\stagework\.next\server\app\api\messages\route.js)
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 28 (line 3 column 2)
+    at JSON.parse (<anonymous>)
+    at loadManifest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-manifest.js:36:25)
+    at getMaybePagePath (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:57:59)
+    at getPagePath (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:92:22)
+    at requirePage (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\require.js:99:22)
+    at C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js:98:84
+    at async loadComponentsImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\next-server.js:709:36)
+    at async DevServer.findPageComponents (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:2074:30)
+    at async DevServer.pipeImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\base-server.js:817:17)
+    at async C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:173:21)
+    at async handleRequest (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:350:24)
+    at async requestHandlerImpl (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\router-server.js:374:13)
+    at async Server.requestListener (C:\Users\k.signhhada\Desktop\PM Tool\stagework\node_modules\next\dist\server\lib\start-server.js:141:13)
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
